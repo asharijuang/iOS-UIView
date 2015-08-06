@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)changeColor:(id)sender;
+- (IBAction)setToFront:(id)sender;
+- (IBAction)reOrderSubView:(id)sender;
+- (IBAction)removeFromSubView:(id)sender;
 
 @end
 
