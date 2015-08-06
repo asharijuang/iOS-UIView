@@ -67,6 +67,10 @@
 }
 
 - (IBAction)removeFromSubView:(id)sender {
-    [[self.view viewWithTag:30] removeFromSuperview];
+    UIView *box = [self.view viewWithTag:30];
+    // kita bisa meremove uiview
+    //[box removeFromSuperview];
+    // atau bisa menyembunyikannya
+    box.hidden = YES;
 }
 @end
